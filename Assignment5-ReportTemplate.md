@@ -37,7 +37,13 @@ Time to Failure Plot of the two models:
 
    ![image](https://github.com/jui-kumkum/SENG637_Assignment5_Group4/blob/main/Images/637Intensity.png)
 
-
+### Calculation of Failure Rate, Mean to Failure Rate (MTTF)
+From the plot and table we can measure the failure rate, Mean to Failure Rate (MTTF)  for the original failure data and the predictions (DW3 and GM) at the last interval (31).
+| Dataset        | Failure Rate (F/Interval) | MTTF (intervals) |
+|----------------|---------------------------|------------------|
+| Raw Data       | 92/31 = 2.96              | 1/2.96 = 0.337   |
+| DW3 Prediction| 91/31 = 2.94              | 1/2.94 = 0.341   |
+| GM Prediction | 90/31 = 2.90              | 1/2.90 = 0.344   |
 # Assessment Using Reliability Demonstration Chart 
 
 # 
