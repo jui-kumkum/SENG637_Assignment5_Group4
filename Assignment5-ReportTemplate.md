@@ -35,7 +35,7 @@ Time to Failure Plot of the two models:
 
    Intensity Plot:
 
-   ![image]()
+   ![image](https://github.com/jui-kumkum/SENG637_Assignment5_Group4/blob/main/Images/637Intensity.png)
 
 
 # Assessment Using Reliability Demonstration Chart 
