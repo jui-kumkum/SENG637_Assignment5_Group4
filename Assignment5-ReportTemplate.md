@@ -29,8 +29,13 @@ After testing with the various ranges on these models, we found that using a sub
 
 One possible reason for this, is that from the 20th interval there is a huge up-climb of failures, and as such using only the subset before interval 20 will not effectively predict the failures with the models.
 
+Time to Failure Plot of the two models:
 
    ![image](https://github.com/jui-kumkum/SENG637_Assignment5_Group4/blob/main/Images/637part1.png)
+
+   Intensity Plot:
+
+   ![image]()
 
 
 # Assessment Using Reliability Demonstration Chart 
