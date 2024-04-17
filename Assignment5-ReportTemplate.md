@@ -44,6 +44,10 @@ From the plot and table we can measure the failure rate, Mean to Failure Rate (M
 | Raw Data       | 92/31 = 2.96              | 1/2.96 = 0.337   |
 | DW3 Prediction| 91/31 = 2.94              | 1/2.94 = 0.341   |
 | GM Prediction | 90/31 = 2.90              | 1/2.90 = 0.344   |
+
+### Decision making based on given Target Failure Rate
+We can see from the plot that, after interval 21 for DW3 and GM models to predict the last 10 intervals, the failure rate and MTTF are very close to the original failure data.
+Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of DW3 and GM is much lower than our raw data, for interval 10-20, failure rate is higher than the raw data,from 22-28 failure rate is lower than imported data.
 # Assessment Using Reliability Demonstration Chart 
 
 # 
