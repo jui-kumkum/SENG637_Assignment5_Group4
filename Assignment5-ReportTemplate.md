@@ -111,6 +111,10 @@ User
 
 # Comparison of Results
 
+
+
+# Discussion on Similarity and Differences of the Two Techniques
+
 ### Similarities:
 
 + Both RGT and RDC are centered around evaluating the reliability of a system. They are used to assess whether a system is likely to perform without failure for a desired period under specified conditions.
@@ -124,9 +128,7 @@ User
 + RGT often requires more detailed failure data over multiple iterations and is generally more data-intensive, as it seeks to monitor reliability trends. RDC can typically provide insights with less data, as it is concerned with demonstrating reliability at a specific instance rather than its growth.
 + RGT involves ongoing testing and is a dynamic process that aims to show improvement in reliability over time. On the other hand, RDC is a static assessment that does not inherently account for changes in reliability over time but rather assesses it at a snapshot in time.
 + While both methods may use graphical representations, the RDC specifically employs a chart to visually demonstrate whether the system meets the set reliability criteria, often comparing against confidence bounds. RGT graphs are more focused on showing the trend or trajectory of reliability improvement over the course of the testing period.
-
-# Discussion on Similarity and Differences of the Two Techniques
-
+  
 # How the team work/effort was divided and managed
 
 | Tester    | Section |
