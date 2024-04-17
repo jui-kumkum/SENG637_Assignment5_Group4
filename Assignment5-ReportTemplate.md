@@ -81,7 +81,7 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
 
 
 # Difficulties encountered, challenges overcome, and lessons learned
-1. At first we tried to work on SRTAT, but could not generate the graph for our imported data, and there was no proper reference to solve the issues.
+1. We faced some difficulties in getting the right tool for our project. Our group first decided to test SRTAT-SRE-tool, but we could not import the failure data using SRTAT. Moreover, there wasn't any documentation available for the tool either, on how to use it and what input formats it supports. After that we moved to C-SFRAT.
 
 # Comments/feedback on the lab itself
 1. We learned about how to assess the failre rate using some reliability assessment tools. 
