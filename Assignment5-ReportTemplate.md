@@ -65,6 +65,33 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
 # Assessment Using Reliability Demonstration Chart 
 
 # 
+### Advantages of RDC:
+
++ RDC provides a clear visual representation of where a product stands in terms of reliability, which aids in decision-making processes.
+
++ It incorporates risk considerations directly into the evaluation, helping to balance and understand the implications of customer risk (β), developer's risk (α), and the discrimination ratio (γ).
+
++ RDC can be adjusted to different confidence levels and risk tolerances, making it adaptable to various industries and applications.
+
++ By using quantitative data, the RDC facilitates an objective assessment of reliability, reducing the subjective judgment that can often influence such decisions.
+
++ The RDC clearly delineates the actions to be taken, whether to accept, reject, or continue testing, based on the plotted failure points.
+
++ It allows for comparison against industry standards or regulatory requirements by setting target MTTF or failure rates.
+
+### Disadvantages of RDC:
+
++ The effectiveness of RDC is heavily dependent on the quality and completeness of failure data, which can sometimes be difficult to ascertain.
+
++ Understanding and correctly interpreting an RDC can be complex, especially for those without statistical or reliability engineering backgrounds.
+
++ RDC focuses on failures and does not account for other aspects of product quality, such as features, user experience, or performance under varied conditions.
+
++ The use of RDC involves assumptions (e.g., failure events are evenly distributed within intervals) that may oversimplify the real-world complexities of product reliability.
+
++ The pursuit of higher reliability levels as suggested by RDC might incur significant costs in product development and testing, impacting the overall budget and potentially the price of the product.
+
++ RDC provides a snapshot based on current data and may not dynamically account for changes in use or environmental conditions over time.
 
 # Comparison of Results
 
