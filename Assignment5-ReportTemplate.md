@@ -80,8 +80,10 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
 | Pratishtha Pratishtha | Assessment using RDC|
 
 
-# 
-
 # Difficulties encountered, challenges overcome, and lessons learned
+1. At first we tried to work on SRTAT, but could not generate the graph for our imported data, and there was no proper reference to solve the issues.
 
 # Comments/feedback on the lab itself
+1. We learned about how to assess the failre rate using some reliability assessment tools. 
+2. One of the recommended software SRTAT-SRE-tool for RGT is very hard to use. There is no documentation available for it as well.
+3. There was very little documentation on the failure dataset.
