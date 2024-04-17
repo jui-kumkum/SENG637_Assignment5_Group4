@@ -75,12 +75,21 @@ These factors contribute to the shape and boundaries of the RDC, thus influencin
 
 To effectively apply the RDC, it's necessary to establish a target MTTF or failure rate (λ_F) that is appropriate for the product's intended use. This target is informed by the specific requirements and tolerances of the product's application. The failure data set, as gathered in the initial part of the assessment, provides the empirical basis for applying the RDC in a real-world context.
 
-
-
-
-
-User
 # 
+
+Before representing the failure data, modifications were required. The initial data presented the count of failures within each interval, as opposed to the duration between successive failures. 
+
+To convert the failure count data into intervals between failures, we used the following approach:
+
+1. Divide each time interval \( T \) by the failure count \( FC \) to get the time between each individual failure.
+2. Calculate the cumulative time by adding each individual time between failures from the start to the current point.
+
+For the given dataset where the time intervals \( T \) are consistent (each \( T \) represents a new interval, for instance, T=1 for the first interval, T=2 for the second, and so on), and the failure count \( FC \) represents the number of failures in each interval, the calculations would proceed as follows for each row:
+
+- The first entry at \( T=1 \) with \( FC=2 \) would mean that there is 0.5 time units between each failure, and the first failure is at 0.5 and the second at 1.0 cumulatively.
+- For \( T=2 \) with \( FC=11 \), each failure is spaced at \( \frac{1}{11} \) time units apart within this interval.
+- and so on for the rest of the rows.
+  
 ### Advantages of RDC:
 
 + RDC provides a clear visual representation of where a product stands in terms of reliability, which aids in decision-making processes.
