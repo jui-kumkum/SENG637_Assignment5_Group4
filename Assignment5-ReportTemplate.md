@@ -111,6 +111,20 @@ User
 
 # Comparison of Results
 
+### Similarities:
+
++ Both RGT and RDC are centered around evaluating the reliability of a system. They are used to assess whether a system is likely to perform without failure for a desired period under specified conditions.
++ Both methodologies require failure data as a fundamental input for analysis. They analyze this data to make inferences about the reliability performance of the system.
++ RGT and RDC aid decision-makers in determining the adequacy of a system's reliability. They help in deciding whether the system can be released, needs further improvement, or requires additional testing.
++ RGT and RDC both employ statistical methods to assess and demonstrate reliability, utilizing calculations based on failure times and rates to quantify the reliability of the system.
+
+### Differences:
+
++ RGT is primarily used to track and improve reliability over time through iterative testing and fixing of identified failures, focusing on the growth aspect. In contrast, RDC is used to make a binary decision on whether a system's reliability meets specified thresholds at a given point in time, typically towards the end of the testing phase.
++ RGT often requires more detailed failure data over multiple iterations and is generally more data-intensive, as it seeks to monitor reliability trends. RDC can typically provide insights with less data, as it is concerned with demonstrating reliability at a specific instance rather than its growth.
++ RGT involves ongoing testing and is a dynamic process that aims to show improvement in reliability over time. On the other hand, RDC is a static assessment that does not inherently account for changes in reliability over time but rather assesses it at a snapshot in time.
++ While both methods may use graphical representations, the RDC specifically employs a chart to visually demonstrate whether the system meets the set reliability criteria, often comparing against confidence bounds. RGT graphs are more focused on showing the trend or trajectory of reliability improvement over the course of the testing period.
+
 # Discussion on Similarity and Differences of the Two Techniques
 
 # How the team work/effort was divided and managed
