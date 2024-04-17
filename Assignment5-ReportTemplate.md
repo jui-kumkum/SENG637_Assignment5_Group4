@@ -11,7 +11,9 @@
 | Student 5 Pratishtha Pratishtha |  
 
 # Introduction
-In this assignment,  we performed integration test data using some reliability assessment tools. We will explore the use of Reliability Growth Testing (RGT) and Reliability Demonstration Chart (RDC) to assess the reliability of a software system.
+In this assignment,  we performed integration test data using some reliability assessment tools. We will explore the use of reliability assessment tools:
+1. Reliability Growth Testing (RGT)
+2. Reliability Demonstration Chart (RDC) to assess the reliability of a software system.
 Then we will compare these techniques to see what they are like and how they are different from one another.
 # 
 
