@@ -23,7 +23,7 @@ We compared the models using Akaike's Information Criteria (AIC) and Bayesian In
 
 In contrast, BIC, like AIC, provides an accurate estimation of the model's performance for future data. It is preferable if the BIC score is lower.
 
-After analyzing the Model Comparison tables from C-SFRAT, we determined that the Discrete Weibull Type 3 model, with covariate F is the best model, with AIC of 122.199 and BIC of 127.935. The second best is the Geometric Model with covariate F with AIC of 125.323 and BIC of 129.625.
+After analyzing the Model Comparison tables from C-SFRAT, we determined that the Discrete Weibull Type 3 model, with covariate F is the best model, with AIC of 122.199, BIC of 127.935 and SSE 1087.948. The second best is the Geometric Model with covariate F with AIC of 125.323 and BIC of 129.625.
 
 After testing with the various ranges on these models, we found that using a subset of 21 of the 31 in the full set (approximately 67-70% of the full failure dataset) and setting the Covariate F as 20 efforts per interval gives best performance for the models.
 
