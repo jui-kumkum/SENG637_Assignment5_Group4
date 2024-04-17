@@ -151,6 +151,7 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 
 # Difficulties encountered, challenges overcome, and lessons learned
 1. We faced some difficulties in getting the right tool for our project. Our group first decided to test SRTAT-SRE-tool, but we could not import the failure data using SRTAT. Moreover, there wasn't any documentation available for the tool either, on how to use it and what input formats it supports. After that we moved to C-SFRAT.
+2. We had problems with visualizing with SRTAT software. The visualization only showed the first few rows of the data and did not include all the points. We couldn't fix this issue so we moved to using RDC for the rest of the part 2. 
 
 # Comments/feedback on the lab itself
 1. We learned about how to assess the failre rate using some reliability assessment tools. 
