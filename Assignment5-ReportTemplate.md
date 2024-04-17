@@ -64,6 +64,22 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
    + Predictions are dependent on the model used. For example, if the model is not appropriate for the data, the predictions may not be accurate.
 # Assessment Using Reliability Demonstration Chart 
 
+The RDC serves as a pivotal tool in the evaluation process for product development and quality control. Its purpose is to provide clear, visual guidance for decision-making about a product by integrating risk factors into its analysis. This is particularly beneficial when information about failures alone does not offer a complete assessment.
+
+The RDC is structured around three primary risk considerations:
+
+Discrimination Ratio (γ): This parameter reflects the inherent product risk. A lower γ value suggests a higher acceptance level for the product, indicating a lower inherent risk. Conversely, a higher γ increases the product's rejectability, signaling higher risk.
+Customer's Risk (β): This risk level represents the probability that a product will fail after being deemed acceptable. The standard value is 0.1, implying a 10% tolerance for customer risk. Decreasing β expands the 'continue' decision zone, implying a more lenient threshold for product acceptance from the customer's standpoint.
+Developer's Risk (α): This is the probability of rejecting a product that would have met the reliability criteria. Also typically set at 0.1, a reduction in α broadens the 'continue' region, allowing for more flexibility in development and testing phases before making a final decision.
+These factors contribute to the shape and boundaries of the RDC, thus influencing the decision to accept, reject, or continue testing a product. The 'continue' region is particularly crucial as it defines the threshold where additional data or testing is warranted to make a more informed decision.
+
+To effectively apply the RDC, it's necessary to establish a target MTTF or failure rate (λ_F) that is appropriate for the product's intended use. This target is informed by the specific requirements and tolerances of the product's application. The failure data set, as gathered in the initial part of the assessment, provides the empirical basis for applying the RDC in a real-world context.
+
+
+
+
+
+User
 # 
 ### Advantages of RDC:
 
