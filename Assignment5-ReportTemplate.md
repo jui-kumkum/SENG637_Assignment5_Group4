@@ -2,12 +2,13 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group: 4      |
+|-----------------|
+| Student 1 Arpita Chowdhury                |   
+| Student 2 Fadila Abdulai Hamid             |   
+| Student 3 Kumkum Akter             |   
+| Student 4 Niloofar Sharifisadr              |
+| Student 5 Pratishtha Pratishtha |  
 
 # Introduction
 In this assignment,  we performed integration test data using some reliability assessment tools. We will explore the use of Reliability Growth Testing (RGT) and Reliability Demonstration Chart (RDC) to assess the reliability of a software system.
@@ -67,6 +68,14 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
 # Discussion on Similarity and Differences of the Two Techniques
 
 # How the team work/effort was divided and managed
+
+| Tester    | Section |
+|-----------------|---------------|
+| Arpita Chowdhury| Assessment using RGT            |   
+|  Kumkum Akter |  Assessment using RGT           |   
+|  Niloofar Sharifisadr | Assessment using RDC     |
+| Pratishtha Pratishtha | Assessment using RDC|
+
 
 # 
 
