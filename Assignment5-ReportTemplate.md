@@ -78,6 +78,7 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
 |  Kumkum Akter |  Assessment using RGT           |   
 |  Niloofar Sharifisadr | Assessment using RDC     |
 | Pratishtha Pratishtha | Assessment using RDC|
+| Student 2 Fadila Abdulai Hamid |              |
 
 
 # Difficulties encountered, challenges overcome, and lessons learned
