@@ -46,8 +46,22 @@ From the plot and table we can measure the failure rate, Mean to Failure Rate (M
 | GM Prediction | 90/31 = 2.90              | 1/2.90 = 0.344   |
 
 ### Decision making based on given Target Failure Rate
+Businesses that are concerned with their software reliability will have a target failure rate or MTTF that is considered acceptable. For example, if the business considers the acceptable failure rate to be 3 Failures/Interval, then at 31st interval this SUT would be considered acceptable as the raw data is at 2.96 failures per interval. However, using the Discrete Weibull Type 3 model, we can predict at which interval in the future the failure rate may become unacceptable.
 We can see from the plot that, after interval 21 for DW3 and GM models to predict the last 10 intervals, the failure rate and MTTF are very close to the original failure data.
 Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of DW3 and GM is much lower than our raw data, for interval 10-20, failure rate is higher than the raw data,from 22-28 failure rate is lower than imported data.
+### Advantages and Disadvantages of Reliability Growth Testing
+
+#### Advantages
+   + Allows the user to predict the failure behavior using a set of predefined models. Using AIC and BIC it is easy to compare which models best fit the data.
+   + Through iterative testing and refinement, reliability growth testing helps to reduce the likelihood of software failures in production environments.
+   + By detecting and fixing reliability issues early in the development lifecycle, reliability growth testing can help reduce the cost of software maintenance and support.
+
+#### Disadvantages
+
+    + Predictions are dependent on the subset of data (here range of intervals) used for the prediction. For example, if there are some distortions or outliers of data within the subset of data, the predictions might not be accurate.
+
+    + Predictions are dependent on the model used. For example, if the model is not appropriate for the data, the predictions may not be accurate.
+
 # Assessment Using Reliability Demonstration Chart 
 
 # 
