@@ -56,9 +56,8 @@ Here, for our raw data, failure rate is 2.96. For interval 1-8, failure rate of 
    + Through iterative testing and refinement, reliability growth testing helps to reduce the likelihood of software failures in production environments.
    + By detecting and fixing reliability issues early in the development lifecycle, reliability growth testing can help reduce the cost of software maintenance and support.
 #### Disadvantages
-    - Predictions are dependent on the subset of data (here range of intervals) used for the prediction. For example, if there are some distortions or outliers of data within the subset of data, the predictions might not be accurate.
-    - Predictions are dependent on the model used. For example, if the model is not appropriate for the data, the predictions may not be accurate.
-
+   + Predictions are dependent on the subset of data (here range of intervals) used for the prediction. For example, if there are some distortions or outliers of data within the subset of data, the predictions might not be accurate.
+   + Predictions are dependent on the model used. For example, if the model is not appropriate for the data, the predictions may not be accurate.
 # Assessment Using Reliability Demonstration Chart 
 
 # 
