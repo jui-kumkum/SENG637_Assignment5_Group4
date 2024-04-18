@@ -87,35 +87,25 @@ To convert the failure count data into intervals between failures, we used the f
 For the given dataset where the time intervals \( T \) are consistent (each \( T \) represents a new interval, for instance, T=1 for the first interval, T=2 for the second, and so on), and the failure count \( FC \) represents the number of failures in each interval, the calculations would proceed as follows for each row:
 
 - The first entry at \( T=1 \) with \( FC=2 \) would mean that there is 0.5 time units between each failure, and the first failure is at 0.5 and the second at 1.0 cumulatively.
-- For \( T=2 \) with \( FC=11 \), each failure is spaced at \( \frac{1}{11} \) time units apart within this interval.
+- For \( T=2 \) with \( FC=11 \), each failure is spaced at \(1/11) time units apart within this interval.
 - and so on for the rest of the rows.
   
 ### Advantages of RDC:
 
 + RDC provides a clear visual representation of where a product stands in terms of reliability, which aids in decision-making processes.
-
 + It incorporates risk considerations directly into the evaluation, helping to balance and understand the implications of customer risk (β), developer's risk (α), and the discrimination ratio (γ).
-
 + RDC can be adjusted to different confidence levels and risk tolerances, making it adaptable to various industries and applications.
-
 + By using quantitative data, the RDC facilitates an objective assessment of reliability, reducing the subjective judgment that can often influence such decisions.
-
 + The RDC clearly delineates the actions to be taken, whether to accept, reject, or continue testing, based on the plotted failure points.
-
 + It allows for comparison against industry standards or regulatory requirements by setting target MTTF or failure rates.
 
 ### Disadvantages of RDC:
 
 + The effectiveness of RDC is heavily dependent on the quality and completeness of failure data, which can sometimes be difficult to ascertain.
-
 + Understanding and correctly interpreting an RDC can be complex, especially for those without statistical or reliability engineering backgrounds.
-
 + RDC focuses on failures and does not account for other aspects of product quality, such as features, user experience, or performance under varied conditions.
-
 + The use of RDC involves assumptions (e.g., failure events are evenly distributed within intervals) that may oversimplify the real-world complexities of product reliability.
-
 + The pursuit of higher reliability levels as suggested by RDC might incur significant costs in product development and testing, impacting the overall budget and potentially the price of the product.
-
 + RDC provides a snapshot based on current data and may not dynamically account for changes in use or environmental conditions over time.
 
 # Comparison of Results
