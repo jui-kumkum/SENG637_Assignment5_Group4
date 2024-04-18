@@ -103,6 +103,24 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 - The first entry at \( T=1 \) with \( FC=2 \) would mean that there is 0.5 time units between each failure, and the first failure is at 0.5 and the second at 1.0 cumulatively.
 - For \( T=2 \) with \( FC=11 \), each failure is spaced at \(1/11) time units apart within this interval.
 - and so on for the rest of the rows.
+- And for instance our table changed from Table 1 to Table 2:
+
+|Cumulative Failure Count |	Time between Failure |	Cumulative Time |
+|1	|0.5|	0.5|
+|2|	0.5|	1|
+|3|	0.0909|	1.0909|
+|4|	0.0909|	1.1818|
+|5|	0.0909|	1.2727|
+|6|	0.0909|	1.3636|
+|7|	0.0909|	1.4545|
+|8|	0.0909|	1.5455|
+|9|	0.0909|	1.6364|
+|10|	0.0909|	1.7273|
+|11|	0.0909|	1.8182|
+|12|	0.0909|	1.9091|
+|13|	0.0909|	2|
+
+
 
 <img src="Images/RDC-FAILUREDATA.png" width="800" />
 
