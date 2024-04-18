@@ -225,7 +225,7 @@ In summary, the two methodologies serve distinct purposes: Reliability Growth Te
 |  Kumkum Akter |  Assessment using RGT           |   
 |  Niloofar Sharifisadr | Assessment using RDC     |
 | Pratishtha Pratishtha | Assessment using RDC|
-| Fadila Abdulai Hamid |              |
+| Fadila Abdulai Hamid | Report Contribution |
 
 
 # Difficulties encountered, challenges overcome, and lessons learned
