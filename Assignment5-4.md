@@ -90,13 +90,8 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 - For \( T=2 \) with \( FC=11 \), each failure is spaced at \(1/11) time units apart within this interval.
 - and so on for the rest of the rows.
 
-<img src="media/Azure_snap.png" width="800" />
+<img src="Images/RDC - 92.png" width="800" />
 
-<img src="media/Azure_snap.png" width="800" />
-
-<img src="media/Azure_snap.png" width="800" />
-
-<img src="media/Azure_snap.png" width="800" />
   
 ### Advantages of RDC:
 
