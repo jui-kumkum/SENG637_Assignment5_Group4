@@ -105,14 +105,14 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 - and so on for the rest of the rows.
 - And for instance our table changed from Table 1 to Table 2:
 - 
-| Table 1 |
+**[ Table 1 ]**
 | Failure Count |	Time Interval |
 |----------------|---------------------------|
 | 2	| 1 |	
 | 11 |	2 |
 
 
-| Table 2 |	
+**[ Table 2 ]**	
 | Cumulative Failure Count |	Time between Failure |	Cumulative Time |
 |----------------|---------------------------|-------------------|
 | 1	| 0.5 |	0.5 |
