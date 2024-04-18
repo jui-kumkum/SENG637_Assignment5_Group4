@@ -135,6 +135,7 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 Above screenshot is of Failure data tab in RDC with setting Maximum Acceptable Number of Failures =92 and Per Number of input events = 31 (based on our data values) and thus FIO=2.967 and MTTF= 0.337
 
 The chart plot for the same is shown below:
+
 **[Plot 1]**
 
 <img src="Images/RDC-INITIAL-NOBOUNDARIESCHANGE.png" width="800" />
@@ -145,17 +146,18 @@ Plot 1 - since the boundaries were set for 16 values only, we can see the plot f
 
 <img src="Images/RDC - 92.png" width="800" />
 
-Plot 3 - To find the minimum accepted MTTF, we modified the values and set Maximum Acceptable Number of Failures = 670 , it was the value where we could observe the SUT barely in the acceptable region. Thus FIO=670/31=21.612 and MTTF=0.0462
-
 **[Plot 3]**
 
 <img src="Images/RDC - 670.png" width="800" />
 
+Plot 3 - To find the minimum accepted MTTF, we modified the values and set Maximum Acceptable Number of Failures = 670 , it was the value where we could observe the SUT barely in the acceptable region. Thus FIO=670/31=21.612 and MTTF=0.0462
+
 **[Plot 4]**
+
+<img src="Images/RDC - 340.png" width="800" />
 
 Plot 4 - We doubled the minimum MTTF, and so MTTF here = 0.0912 by setting Maximum Acceptable Number of Failures = 340, and thus, FIO=10.96 and we can see that SUT almost immediately goes into the reject region.
 
-<img src="Images/RDC - 340.png" width="800" />
 
 **[Plot 5]**
 
@@ -163,7 +165,14 @@ Plot 4 - We doubled the minimum MTTF, and so MTTF here = 0.0912 by setting Maxim
 
 Plot 5 - For this plot, we halved the minimum MTTF, and so MTTF here = 0.023 by setting Maximum Acceptable Number of Failures = 1340, and thus, FIO=43.225 and we can see that SUT immediately goes into the accept region.
 
+This table represents summary of values:
 
+| Maximum Acceptable Number of Failures | Per Number of input events | FIO | MTTF|
+|-----------|-----------------|----------------------|--------------------|
+| 92 | 31 | 2.967 | 0.337 |
+| 340 | 31 | 10.96 | 0.0912 |
+| 670 | 31 | 21.612 | 0.0462 |
+| 1340 | 31 | 43.225 | 0.023 |
   
 ### Advantages of RDC:
 
