@@ -130,10 +130,15 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 | 13 |	0.0909 |	2 |
 
 
-
 <img src="Images/RDC-FAILUREDATA.png" width="800" />
 
+Screenshot of Failure data tab in RDC with setting Maximum Acceptable Number of Failures =92 and Per Number of input events = 31 (based on our data values) and thus FIO=2.967 and MTTF= 0.337
+
+The chart plot for the same is shown below:
+
 <img src="Images/RDC-INITIAL-NOBOUNDARIESCHANGE.png" width="800" />
+
+In this chart, 
 
 <img src="Images/RDC - 92.png" width="800" />
 
