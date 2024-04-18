@@ -89,6 +89,14 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 - The first entry at \( T=1 \) with \( FC=2 \) would mean that there is 0.5 time units between each failure, and the first failure is at 0.5 and the second at 1.0 cumulatively.
 - For \( T=2 \) with \( FC=11 \), each failure is spaced at \(1/11) time units apart within this interval.
 - and so on for the rest of the rows.
+
+<img src="media/Azure_snap.png" width="800" />
+
+<img src="media/Azure_snap.png" width="800" />
+
+<img src="media/Azure_snap.png" width="800" />
+
+<img src="media/Azure_snap.png" width="800" />
   
 ### Advantages of RDC:
 
