@@ -119,6 +119,9 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 # Comparison of Results
 
 
+For the comparative metric, we use the minimum Mean Time To Failure (MTTF_min) of 0.046 that is established in the Reliability Demonstration Chart.
+According to the RDC's determination, an MTTF_min of 0.046 is the threshold. From the Reliability Growth perspective, the SUT's MTTF stands at 0.337, rendering it acceptable by exceeding the benchmark. The RDC, on the other hand, provides a straightforward visual indicator for when the failures shift into regions that signify rejection or acceptance, showcasing the RDC's efficacy in evaluating whether the SUT meets the criteria.
+In summary, the two methodologies serve distinct purposes: Reliability Growth Testing is adept at forecasting failure patterns over time, while the Reliability Demonstration Chart excels at guiding the decision on the conclusion of testing, factoring in various levels of risk.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
