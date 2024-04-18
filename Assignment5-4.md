@@ -92,6 +92,13 @@ For the given dataset where the time intervals \( T \) are consistent (each \( T
 
 <img src="Images/RDC - 92.png" width="800" />
 
+<img src="Images/RDC - 370.png" width="800" />
+
+<img src="Images/RDC - 670.png" width="800" />
+
+<img src="Images/RDC - 1340.png" width="800" />
+
+
   
 ### Advantages of RDC:
 
