@@ -85,12 +85,18 @@ For the purpose of this assignment, we used these values for the above considera
 
 # 
 
-Before representing the failure data, modifications were required. The initial data presented the count of failures within each interval, as opposed to the duration between successive failures. 
+Before representing the failure data, modifications were required. In original failure data, we had the following columns:
+T: time interval
+FC: failure count
+E: execution time measured in hours
+F:failure identification work measured in person hours
+C: computer time failure identification measured in hours
 
-To convert the failure count data into intervals between failures, we used the following approach:
+And so, initially the data presented the count of failures within each interval, as opposed to the duration between successive failures. To convert the failure count data into intervals between failures, we used the following approach by assumming the uniform distribution of failures for that time and so:
 
 1. Divide each time interval \( T \) by the failure count \( FC \) to get the time between each individual failure.
-2. Calculate the cumulative time by adding each individual time between failures from the start to the current point.
+2. Calculate the cumulative time by adding each individual time between failures from when the first failure occured to the last one.
+3. Also, calculating the cumulative of total failures accounting to 92 and verifying the value of cumulative of time intervals also being 31.
 
 For the given dataset where the time intervals \( T \) are consistent (each \( T \) represents a new interval, for instance, T=1 for the first interval, T=2 for the second, and so on), and the failure count \( FC \) represents the number of failures in each interval, the calculations would proceed as follows for each row:
 
